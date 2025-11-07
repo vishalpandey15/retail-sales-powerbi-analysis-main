@@ -1,0 +1,24 @@
+﻿Column1,Column2,Column3,Column4
+Column Name,Table Name,Data Type,Description
+Store,Sales,Integer,Unique store identifier
+Dept,Sales,Integer,Department code
+Date,Sales,Date,Week start date of recorded sales
+Weekly_Sales,Sales,Decimal,Total weekly sales amount for each store-department combination
+IsHoliday,Sales,Boolean,Indicates whether the week includes a major holiday
+Store,Stores,Integer,Unique store identifier (links to Sales table)
+Type,Stores,Text,Store format or category (A/B/C)
+Size,Stores,Integer,Store floor size in square feet
+Store,Features,Integer,Unique store identifier (links to Sales table)
+Date,Features,Date,Date for weekly feature metrics
+Temperature,Features,Decimal,Average weekly temperature (°F)
+Fuel_Price,Features,Decimal,Average fuel price for the week ($/gallon)
+CPI,Features,Decimal,Consumer Price Index (measure of inflation)
+Unemployment,Features,Decimal,Unemployment rate for the region
+Markdown1,Features,Decimal,Promotional discount applied (type 1)
+Markdown2,Features,Decimal,Promotional discount applied (type 2)
+Markdown3,Features,Decimal,Promotional discount applied (type 3)
+Markdown4,Features,Decimal,Promotional discount applied (type 4)
+Markdown5,Features,Decimal,Promotional discount applied (type 5)
+Year,Date,Integer,Calendar year extracted from date
+Month,Date,Integer,Month number (1–12)
+Week,Date,Integer,Week number (1–52)
